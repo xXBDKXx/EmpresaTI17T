@@ -1,0 +1,15 @@
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\bin\Debug\TelaEmpresaTI17T.exe.config
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\bin\Debug\TelaEmpresaTI17T.exe
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\bin\Debug\TelaEmpresaTI17T.pdb
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.csproj.AssemblyReference.cache
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.csproj.SuggestedBindingRedirects.cache
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.Atualizar.resources
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.Cadastar.resources
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.Consultar.resources
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.Excluir.resources
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.Form1.resources
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.Properties.Resources.resources
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.csproj.GenerateResource.cache
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.csproj.CoreCompileInputs.cache
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.exe
+C:\Users\bruno.fsilva72\source\repos\TelaEmpresaTI17T\TelaEmpresaTI17T\obj\Debug\TelaEmpresaTI17T.pdb
