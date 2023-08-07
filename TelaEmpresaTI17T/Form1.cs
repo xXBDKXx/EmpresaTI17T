@@ -16,6 +16,9 @@ namespace TelaEmpresaTI17T
         Consultar con;
         Atualizar atu;
         Excluir exc;
+        DAO consul;
+        Consultar cons;
+        
         public Form1()
         {
             InitializeComponent();
@@ -23,7 +26,10 @@ namespace TelaEmpresaTI17T
             con = new Consultar();
             atu = new Atualizar();
             exc = new Excluir();
-        }
+            consul = new DAO();
+            
+        }//Fim do Construtor
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -32,7 +38,7 @@ namespace TelaEmpresaTI17T
 
         private void Cadastrar_Click(object sender, EventArgs e)
         {
-            cad.ShowDialog();
+            cad.ShowDialog();//Abrir a Tela
         }//Fim do Botão Cadastrar
 
         private void Atualizar_Click(object sender, EventArgs e)

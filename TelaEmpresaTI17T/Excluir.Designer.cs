@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.CPF = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -44,13 +44,14 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Excluir Pessoa";
             // 
-            // maskedTextBox1
+            // CPF
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(208, 151);
-            this.maskedTextBox1.Mask = "999.999.999-99";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(299, 20);
-            this.maskedTextBox1.TabIndex = 9;
+            this.CPF.Location = new System.Drawing.Point(208, 151);
+            this.CPF.Mask = "99999999999";
+            this.CPF.Name = "CPF";
+            this.CPF.Size = new System.Drawing.Size(299, 20);
+            this.CPF.TabIndex = 9;
+            this.CPF.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.CPF_MaskInputRejected);
             // 
             // label2
             // 
@@ -71,6 +72,7 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "Excluir";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Excluir
             // 
@@ -78,13 +80,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 461);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.CPF);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MaximumSize = new System.Drawing.Size(650, 500);
             this.MinimumSize = new System.Drawing.Size(650, 500);
             this.Name = "Excluir";
             this.Text = "Excluir";
+            this.Load += new System.EventHandler(this.Excluir_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,7 +96,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox CPF;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
     }
